@@ -27,7 +27,7 @@ class Database:
         if self._connected:
             raise Exception("Database is already Connected.")
 
-        self._pool = await asyncpg.create_pool(f"postgres://postgres:UXahjK5GLRx9ziyw@winhost:5432/postgres")
+        self._pool = await asyncpg.create_pool(f"postgres://{self._user}:{self._password}@{self._host}:{self._port}/{self._db_id}")
         self._connected = True
         log.info("** Database is Connected.")
 
