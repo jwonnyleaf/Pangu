@@ -3,13 +3,14 @@ import logging
 import hikari
 import lightbulb
 
-from bot import Pangu
-from utils import constants as const
+from Pangu.bot import Pangu
+from Pangu.utils import constants as const
 
 log = logging.getLogger(__name__)
 
 
 misc_plugin = lightbulb.Plugin("misc")
+
 
 @misc_plugin.command
 @lightbulb.command("ping", "Checks the Bot's latency")

@@ -1,6 +1,6 @@
 import os
 
-from bot import Pangu
+from Pangu.bot import Pangu
 
 if __name__ == "__main__":
     if os.name != "nt":
