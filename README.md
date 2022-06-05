@@ -33,7 +33,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">{Pangu}</h3>
+<h2 align="center">Pangu</h2>
 
   <p align="center">
     Discord Bot written in Hikari + Lightbulb
@@ -80,7 +80,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 This is a multi-purpose Discord bot currently written in Hikari and Lightbulb. 
 Discord is an amazing platform that has continued to connect people from all over the world.
@@ -149,6 +149,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
+- [x] Create the Framework
 - [ ] Fully Implement Database
 - [ ] Introduce More Commands
     - [ ] Fun
