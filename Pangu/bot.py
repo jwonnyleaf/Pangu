@@ -62,5 +62,6 @@ class Pangu(lightbulb.BotApp):
         await self._db.execute(
             "INSERT INTO guilds (guild_id, prefix) VALUES ($1, $2) ON CONFLICT (guild_id) DO NOTHING", event.guild_id, "`"
         )
-
         log.info(f"Pangu has been added by a new guild: {event.guild.name} ({event.guild_id})!")
+
+        

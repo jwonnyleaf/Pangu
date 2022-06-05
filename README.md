@@ -36,7 +36,7 @@
 <h3 align="center">{Pangu}</h3>
 
   <p align="center">
-    project_description
+    Discord Bot written in Hikari + Lightbulb
     <br />
     <a href="https://github.com/jwonnyleaf/Pangu"><strong>Explore the docs »</strong></a>
     <br />
@@ -70,9 +70,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -84,7 +82,10 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `jwonnyleaf`, `Pangu`, `twitter_handle`, `jwonnyleaf`, `email_client`, `email`, `Pangu`, `project_description`
+This is a multi-purpose Discord bot currently written in Hikari and Lightbulb. 
+Discord is an amazing platform that has continued to connect people from all over the world.
+This project allows me to fulfil Discord's mission statement while learning Python.
+Hopefully you'll have a chance to look around!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -104,38 +105,37 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get the bot running, you'll need to setup your environment. Follow the steps below closely.
 
 ### Requirements
 
 This is an example of how to list things you need to use the software and how to install them.
-* requirements.txt
-  ```sh
-  python -m pip install -r requirements.txt
-  ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repository
    ```sh
    git clone https://github.com/jwonnyleaf/Pangu.git
    ```
-3. Install NPM packages
+2. ** OPTIONAL ** Create and utilize a Virtual Environment
    ```sh
-   npm install
+   python3 -m pip venv .venv
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. TODO Configure your .env
+4. Install the required dependencies/packages
+   ```sh
+   python3 -m pip install -r requirements.txt
+   ```
+5. Run Pangu (Bot)
+   ```sh
+   python3 -m Pangu
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLES
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
@@ -144,15 +144,17 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+-->
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Fully Implement Database
+- [ ] Introduce More Commands
+    - [ ] Fun
+    - [ ] Moderation
+    - [ ] Music
+- [ ] Incorporate Web Dashboard
 
 See the [open issues](https://github.com/jwonnyleaf/Pangu/issues) for a full list of proposed features (and known issues).
 
